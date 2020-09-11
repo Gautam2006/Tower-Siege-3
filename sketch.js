@@ -80,7 +80,6 @@ function draw() {
       title.visible = false;
       play.visible = false;
       description.visible = false;
-      cursor(HAND);
     }
   }
 
