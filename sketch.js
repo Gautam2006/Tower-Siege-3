@@ -179,9 +179,9 @@ async function getBackgroundImg() {
 
   if (hour >= 05 && hour <= 10) {
     bg = loadImage("Sunrise.jpg");
-  } else if (hour > 10 && hour <= 17) {
+  } else if (hour > 10 && hour < 17) {
     bg = loadImage("Afternoon.jpg");
-  } else if (hour > 17 && hour <= 19) {
+  } else if (hour >= 17 && hour <= 19) {
     bg = loadImage("Sunset.jpg");
   } else {
     bg = loadImage("Night.jpg");
